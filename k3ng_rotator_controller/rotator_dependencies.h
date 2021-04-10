@@ -103,7 +103,7 @@
 #endif
 
 #if defined(FEATURE_RTC_DS1307) && defined(FEATURE_RTC_PCF8583)
-  #error "You can't have two RTC features enabled!"
+  #error "You can't have two RTC features enabled (DS1307 and PFC8583)"
 #endif
 
 #if defined(FEATURE_REMOTE_UNIT_SLAVE) && defined(OPTION_SYNC_MASTER_CLOCK_TO_SLAVE)
